@@ -1,0 +1,29 @@
+package demo;
+
+public class Loops {
+public static void main(String[] args) {
+	int RollNumber =10;
+	do {
+	System.out.println("RollNumber"+" "+RollNumber+"  "+"Present");
+	RollNumber--;
+	}while (RollNumber>=10);
+	do{
+		System.out.println("RollNumber" +" " +RollNumber+"  "+"Present");
+		RollNumber--;
+	}while (RollNumber>=9);
+	do{
+		System.out.println("RollNumber" +" " +RollNumber+"  "+"Present");
+		RollNumber--;
+	}while (RollNumber>=8);
+	do{
+		System.out.println("RollNumber" +" " +RollNumber+"  "+"Present");
+		RollNumber--;
+	}while (RollNumber>=7);
+	do{
+		System.out.println("RollNumber" +" " +RollNumber+"  "+"Not Present");
+		RollNumber--;
+	}while (RollNumber>=1);
+	
+	
+}
+}
